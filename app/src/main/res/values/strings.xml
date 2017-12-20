@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TextEdit</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_openmode">Open mode</string>
+    <string name="pref_color">Color</string>
+    <string name="pref_color_black">Black</string>
+    <string name="pref_color_red">Red</string>
+    <string name="pref_color_green">Green</string>
+    <string name="pref_color_grey">Grey</string>
+    <string name="pref_size">Size</string>
+    <string name="pref_style">Style</string>
+    <string name="pref_style_regular">Regular</string>
+    <string name="pref_style_bold">Bold</string>
+    <string name="pref_style_italic">Italic</string>
+</resources>

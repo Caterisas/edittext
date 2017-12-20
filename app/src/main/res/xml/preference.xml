@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title = "Font settings">
+        <CheckBoxPreference
+            android:key="Starting mode"
+            android:summary="Open last file when app starts"
+            android:title="Open"
+            android:textColor="@color/colorPrimaryDark"
+            android:enabled="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Fonts settings">
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="Input font size (10...30)"
+            android:key="Size"
+            android:summary="Changes following font size"
+            android:title="Font size"/>
+
+        <ListPreference
+            android:key="@string/pref_size"
+            android:title="Font style"
+            android:summary="Changes following font style"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Select font style"/>
+
+        <PreferenceScreen
+            android:key="@string/pref_color"
+            android:title="Text color"
+            android:summary="Sets following text color"/>
+
+        <CheckBoxPreference
+            android:key="@string/pref_color_black"
+            android:title="Black"
+            android:defaultValue="true"
+            android:summary="Sets text `black` color"/>
+        <CheckBoxPreference
+            android:key="@string/pref_color_red"
+            android:title="Red"
+            android:defaultValue="true"
+            android:summary="Sets text `red` color"/>
+        <CheckBoxPreference
+            android:key="@string/pref_color_green"
+            android:title="Green"
+            android:defaultValue="true"
+            android:summary="Sets text `green` color"/>
+        <CheckBoxPreference
+            android:key="@string/pref_color_grey"
+            android:title="Grey"
+            android:defaultValue="true"
+            android:summary="Sets text `grey` color"/>
+    </PreferenceCategory>
+</PreferenceScreen>
